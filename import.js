@@ -1,3 +1,8 @@
+/* Node.js Import KDPW data to Oracle DB  
+   Author: ESM Technology Karol Przybylski
+   Date: 2014-12-01
+   Visit http://www.esm-technology.pl or http://github.com/itorK
+*/
 var select = require('xpath.js')
         , dom = require('xmldom').DOMParser
         , oracle = require('oracle')
