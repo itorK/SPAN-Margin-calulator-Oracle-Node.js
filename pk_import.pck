@@ -1,3 +1,8 @@
+/* SPAN margin Import PL/SQL Package  
+   Author: ESM Technology Karol Przybylski
+   Date: 2014-12-01
+   Visit http://www.esm-technology.pl or http://github.com/itorK
+*/
 CREATE OR Replace package pk_import Is
 PROCEDURE prDodajPapier(
 	v_sppa_nazwa IN varchar2,
